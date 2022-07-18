@@ -1,0 +1,56 @@
+
+/*Estilos globales*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+/* Index */
+
+.tarjetas_1 {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.tarjetas_2 {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    padding-block-end: 5%;
+}
+/*Sobre nosotros*/
+.title_sobrenosotros {
+    background-color: rgb(202, 191, 177);
+}
+.title_equipo{
+    background-color: rgb(202, 191, 177);
+}
+.somos {
+    margin-top: 5%;
+    
+    
+    
+}
+.imag_somos {
+    margin-top: 3%;
+    padding-left: 25%;
+}
+.tarjetas_servicios {
+    margin-block-end: 4%;
+}
+.equipo {
+    margin-top: 5%;
+    
+}
+
+@media screen and (max-width: 420px) and (max-widht:750px) {
+    .imag_somos {
+        margin-top: 0;
+        padding-right: 65%;
+    }
+    
+}
