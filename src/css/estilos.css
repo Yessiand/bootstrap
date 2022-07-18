@@ -1,13 +1,10 @@
 
 /*Estilos globales*/
 
-
 *{
     margin: 0;
     padding: 0;
-    
 }
-
 
 /* Index */
 
@@ -15,14 +12,15 @@
     margin-left: 5%;
     margin-right: 5%;
 }
-
 .tarjetas_2 {
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 5%;
     padding-block-end: 5%;
 }
+
 /*Sobre nosotros*/
+
 .title_sobrenosotros {
     background-color: rgb(202, 191, 177);
 }
@@ -30,10 +28,7 @@
     background-color: rgb(202, 191, 177);
 }
 .somos {
-    margin-top: 5%;
-    
-    
-    
+    margin-top: 5%; 
 }
 .imag_somos {
     margin-top: 3%;
@@ -44,7 +39,6 @@
 }
 .equipo {
     margin-top: 5%;
-    
 }
 
 @media screen and (max-width: 420px) and (max-widht:750px) {
@@ -52,5 +46,4 @@
         margin-top: 0;
         padding-right: 65%;
     }
-    
 }
