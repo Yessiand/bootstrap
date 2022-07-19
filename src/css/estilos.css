@@ -40,7 +40,21 @@
 .equipo {
     margin-top: 5%;
 }
-
+/*Contactanos*/
+.slider_formulario {
+    margin-top: 7%;
+}
+.formulario {
+    margin-block-end: 5%;
+}
+/*Galeria*/
+.slider_galeria {
+    margin-block-end: 15%;
+}
+.titulo_galeria {
+    margin-top: 5%;
+    font-size: 25px;
+}
 @media screen and (max-width: 420px) and (max-widht:750px) {
     .imag_somos {
         margin-top: 0;

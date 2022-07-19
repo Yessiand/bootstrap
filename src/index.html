@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+</head>
+<body>
+    <!--Header-->
+
+    <header class="container-fluid bg-dark d-flex justify-content-center">
+        <p class="text-light mb-0 p-2 fs-6">Fotografias profesionales</p>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="./index.html">Inicio<span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./paginas/sobrenosotros.html">Sobre nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./paginas/contactanos.html">contactanos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./paginas/galeria.html">Galeria</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./paginas/ideas.html">Ideas</a>
+                </li>
+            </ul>
+            <span class="navbar-text">
+                
+            </span>
+            </div>
+        </nav>
+    <!--Fin del Header-->
+
+    <!--Slider-Imagenes-->
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./src/images/slider1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./src/images/slider2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./src/images/slider3.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./src/images/slider4.jpg" class="d-block w-100" alt="...">
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+            </button>
+        </div>
+
+    <!--Fin de Slider-Imagenes-->
+
+    <!--Main-->
+    
+    <section class="w-50 mx-auto text-center pt-5" id="intro">
+        <h1 class="p-3 fs-2 border-top border-3 title-intro">Fotografias profesionales<span class="span__intro"> </span></h1>
+        <p class="p-3 fs-4 paragraph__intro">Captura tus momentos especiales<span class="span__intro">  </span></p>
+    </section>
+
+    <!--Servicios-->
+    <div class="card-deck tarjetas_1">
+        <div class="card">
+            <img src="./src/images/tarjeta1.jpg" class="img-thumbnail" alt="obelisco BsAs" width="350" height="250">
+        <div class="card-body">
+            <h3 class="card-title">Fotografos profesionales</h3>
+            <p class="card-text">Nuestros fotogragos son personas apasionadas por la fotogragia, su pasión junto con su constante busqueda por el aprendizaje hacen que den lo mejor de ellos.</p>
+        </div>
+        </div>
+        <div class="card">
+            <img src="./src/images/tarjeta2.jpg" class="img-thumbnail" alt="obelisco BsAs" width="350" height="250">
+        <div class="card-body">
+            <h3 class="card-title">Foto-estudios</h3>
+            <p class="card-text">Nuestros espacios cuentan con equipos modernos y una ilumicación perfecta, recreamos el escenario con la tematica que usted desee.</p>
+        
+        </div>
+        </div>
+        <div class="card">
+            <img src="./src/images/tarjeta3.jpg" class="img-thumbnail" alt="obelisco BsAs" width="350" height="250">
+                <div class="card-body">
+                    <h3 class="card-title">Maquillaje</h3>
+                    <p class="card-text">Contamos con personas capacitadas en distintos tipos de maquillaje, puedes recrear distintas escenas y tematicas, nuestros maquilladores te ayudaran a combinar tu maqullaje y vestuario de acuerdo a la tematica.</p>
+
+        </div>
+        </div>
+    </div>
+
+    <div class="card-deck tarjetas_2">
+        <div class="card">
+            <img src="./src/images/tarjeta4.jpg" class="img-thumbnail" alt="obelisco BsAs" width="350" height="250">
+        <div class="card-body">
+            <h3 class="card-title">Impresión fotografica</h3>
+            <p class="card-text">Imprimimos tus fotos favoritas, no importa si estan en rollo fotografico o desde tu celular, tambien incluimos retoques, si lo deseas.</p>
+            
+        </div>
+        </div>
+
+        <div class="card">
+            <img src="./src/images/tarjeta5.jpg" class="img-thumbnail" alt="obelisco BsAs" width="350" height="250">
+        <div class="card-body">
+            <h3 class="card-title">Album de fotos</h3>
+            <p class="card-text">Diseñamos albums para tus fotos de forma personalizada, puedes escoger los colores, formas y demas, nosotros de asesoramos.</p>
+        
+        </div>
+        </div>
+        
+        <div class="card">
+            <img src="./src/images/tarjeta6.jpg" class="img-thumbnail" alt="obelisco BsAs" width="350" height="250">
+                <div class="card-body">
+                    <h3 class="card-title">Fotos en exteriores</h3>
+                    <p class="card-text">Contamos con equipos especiales para realizar tus foto estudios en espacios exteriores.</p>
+        </div>
+        </div>
+    </div>
+    <!--Fin servicios-->
+    <!--Inicio de Footer-->
+    <div class="container-fluid">
+        <div class="row p-5 bg-dark text-white">
+            <div class="col-xs-12 col-md-6 col-lg-3">
+                <img src="./src/images/logo.png" class="img-fluid" width= "150" height="auto">
+            </div>
+                
+            <div class="col-xs-12 col-md-6 col-lg-3" >
+                <p class="h5 mb-3">Servicios</p>
+                <div class="mb-1"> 
+                    <a class="text-secondary text-decoration-none" href="#">Fotografos profesionales</a>
+                </div>
+                <div class="mb-1">
+                    <a class="text-secondary text-decoration-none" href="#">Foto estudios</a>
+                </div>
+                <div class="mb-1">
+                    <a class="text-secondary text-decoration-none" href="#">Maquillaje</a>
+                </div>
+                <div class="mb-1">
+                    <a class="text-secondary text-decoration-none" href="#">Impresión fotografica</a>
+                </div>
+                <div class="mb-1">
+                    <a class="text-secondary text-decoration-none" href="#">Album de fotos</a>
+                </div>
+                <div class="mb-1">
+                    <a class="text-secondary text-decoration-none" href="#">Fotos en exteriores</a>
+                </div>     
+            </div>
+                
+            <div class="col-xs-12 col-md-6 col-lg-3">
+                <p class="h5">Contacto</p>
+                <div>
+                    <a class="text-secondary text-decoration-none" href="#">Instagram</a>
+                </div>
+                <div>
+                    <a class="text-secondary text-decoration-none" href="#">Facebook</a>
+                </div>
+                <div>
+                    <a class="text-secondary text-decoration-none" href="#">Youtube</a>
+                </div>
+            </div>
+                
+            <div class="col-xs-12 col-md-6 col-lg-3">
+                <p class="h5">Politicas de privacidad</p>
+                <div>
+                    <a class="text-secondary text-decoration-none" href="#" >Terms & conditions</a>
+                </div>
+                <div>
+                    <a class="text-secondary text-decoration-none" href="#" >Privacity Policy</a>
+                </div> 
+            </div>
+        </div>
+    </div>
+    <!--Fin del footer-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script> 
+</body>
+</html>
